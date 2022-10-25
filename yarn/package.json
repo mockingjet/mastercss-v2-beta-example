@@ -1,0 +1,19 @@
+{
+  "name": "yarn",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "@master/css": "2.0.0-beta.2",
+    "@master/css-compiler": "2.0.0-beta.2",
+    "chalk": "4.0.0"
+  }
+}
