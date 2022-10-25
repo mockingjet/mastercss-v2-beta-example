@@ -2,13 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@master/css': 2.0.0-beta.2
-  '@master/css-compiler': 2.0.0-beta.2
+  '@master/css-compiler': 2.0.0-beta.4
   typescript: ^4.6.4
   vite: ^3.1.0
 
 dependencies:
   '@master/css': 2.0.0-beta.2
-  '@master/css-compiler': 2.0.0-beta.2_5hxtg37qastxopaklqzh3n4ipy
+  '@master/css-compiler': 2.0.0-beta.4_@master+css@2.0.0-beta.2
 
 devDependencies:
   typescript: 4.8.4
@@ -34,15 +34,14 @@ packages:
     dev: true
     optional: true
 
-  /@master/css-compiler/2.0.0-beta.2_5hxtg37qastxopaklqzh3n4ipy:
-    resolution: {integrity: sha512-y/uEMua2ezxM0M5FohgOpZZm818kvkfvdUFEa3cPUnNbDXy7hTFh3NpBdJjh9HRDxLS85JSdlFwfOqKiVx6zdA==}
+  /@master/css-compiler/2.0.0-beta.4_@master+css@2.0.0-beta.2:
+    resolution: {integrity: sha512-o/PoJ/tXNoW3VVtwzqPejibaFLupYK1xe87MghifB5jhc8fLaIwtJZ3lm+NXjDrI0aYSPDJI/YvKbjgmbMKnPw==}
     engines: {node: '>=17.1'}
     peerDependencies:
       '@master/css': ^2.0.0-beta.2
-      chalk: ^4.0.0
     dependencies:
       '@master/css': 2.0.0-beta.2
-      chalk: 4.1.2
+      chalk: 5.1.2
     dev: false
 
   /@master/css/2.0.0-beta.2:
@@ -50,30 +49,9 @@ packages:
     engines: {node: '>=17.1'}
     dev: false
 
-  /ansi-styles/4.3.0:
-    resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
-    engines: {node: '>=8'}
-    dependencies:
-      color-convert: 2.0.1
-    dev: false
-
-  /chalk/4.1.2:
-    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
-    engines: {node: '>=10'}
-    dependencies:
-      ansi-styles: 4.3.0
-      supports-color: 7.2.0
-    dev: false
-
-  /color-convert/2.0.1:
-    resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
-    engines: {node: '>=7.0.0'}
-    dependencies:
-      color-name: 1.1.4
-    dev: false
-
-  /color-name/1.1.4:
-    resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+  /chalk/5.1.2:
+    resolution: {integrity: sha512-E5CkT4jWURs1Vy5qGJye+XwCkNj7Od3Af7CP6SujMetSMkLs8Do2RWJK5yx1wamHV/op8Rz+9rltjaTQWDnEFQ==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
   /esbuild-android-64/0.15.12:
@@ -298,11 +276,6 @@ packages:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
     dev: true
 
-  /has-flag/4.0.0:
-    resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
-    engines: {node: '>=8'}
-    dev: false
-
   /has/1.0.3:
     resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
     engines: {node: '>= 0.4.0'}
@@ -360,13 +333,6 @@ packages:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /supports-color/7.2.0:
-    resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
-    engines: {node: '>=8'}
-    dependencies:
-      has-flag: 4.0.0
-    dev: false
 
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
