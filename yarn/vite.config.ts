@@ -1,6 +1,6 @@
-import { defineConfig, PluginOption } from "vite";
+import { defineConfig } from "vite";
 import { MasterCSSVitePlugin } from "@master/css-compiler";
 
 export default defineConfig({
-  plugins: [MasterCSSVitePlugin() as PluginOption],
+  plugins: [MasterCSSVitePlugin()],
 });

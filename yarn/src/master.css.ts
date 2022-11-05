@@ -1,7 +1,6 @@
-import { configure } from "@master/css";
-
-export default configure({
+export default {
   colors: {
     primary: "#175fe9",
+    neutral: "#222222",
   },
-});
+};
