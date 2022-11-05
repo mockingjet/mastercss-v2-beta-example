@@ -1,3 +1,3 @@
-import config from "./master.css";
+import config from "../master.css";
 import MasterCSS from "@master/css";
 new MasterCSS({ config } as any);
