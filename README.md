@@ -10,4 +10,5 @@
 
 On Windows, after executing `npm run dev`, AOT works correctly only for a moment, but it's result gets cleared immediately
 
-![Error](/Npm+Vite+TS.mp4 "Error")
+https://user-images.githubusercontent.com/32839503/200102135-386a66ff-cc02-4c52-9c89-0d7c8d3fe75f.mp4
+
