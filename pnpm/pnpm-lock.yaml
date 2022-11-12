@@ -1,14 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@master/css': 2.0.0-beta.27
-  '@master/css-compiler': 2.0.0-beta.16
+  '@master/css': 2.0.0-beta.40
+  '@master/css-compiler': 2.0.0-beta.18
   typescript: ^4.6.4
   vite: ^3.1.0
 
 dependencies:
-  '@master/css': 2.0.0-beta.27
-  '@master/css-compiler': 2.0.0-beta.16_@master+css@2.0.0-beta.27
+  '@master/css': 2.0.0-beta.40
+  '@master/css-compiler': 2.0.0-beta.18_@master+css@2.0.0-beta.40
 
 devDependencies:
   typescript: 4.8.4
@@ -34,18 +34,18 @@ packages:
     dev: true
     optional: true
 
-  /@master/css-compiler/2.0.0-beta.16_@master+css@2.0.0-beta.27:
-    resolution: {integrity: sha512-wlC9B0ftCmIvdHY4zEe6t4Vh7LndkURsL4r61ubU9PzzF30y7f4Ql2KBdHOuXYhcmgyF/iftpbAVr4bbrM9Kzg==}
+  /@master/css-compiler/2.0.0-beta.18_@master+css@2.0.0-beta.40:
+    resolution: {integrity: sha512-VPdob+LlhMe9Rg3EjjlNzMGMnwRHXen1UHgFFwlYVGDegoQlVrkA6oy+veMs0hWvmbXbUrEIbNNZ1NRA7I7sFA==}
     engines: {node: '>=14'}
     peerDependencies:
-      '@master/css': ^2.0.0-beta.22
+      '@master/css': ^2.0.0-beta.37
     dependencies:
-      '@master/css': 2.0.0-beta.27
+      '@master/css': 2.0.0-beta.40
       chalk: 4.1.2
     dev: false
 
-  /@master/css/2.0.0-beta.27:
-    resolution: {integrity: sha512-g29V9BmReYh1XdnKiLAyRslTKB/WvI0yBFuYQ6i7dtEbV6WG3D3WW5/YCOKCWvadbbKedWr31W7a8u3JXrIFKg==}
+  /@master/css/2.0.0-beta.40:
+    resolution: {integrity: sha512-qXDFSidhiWYHgb3wj64kyrN3TTazU+4TJjnsp/vNE0E5397r7jPnvw5Iz6gRbioCDY2lmUmOoNveFxXVa+6Fjw==}
     engines: {node: '>=14'}
     dev: false
 

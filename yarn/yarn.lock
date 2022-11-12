@@ -12,17 +12,17 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.13.tgz#64e8825bf0ce769dac94ee39d92ebe6272020dfc"
   integrity sha512-+BoyIm4I8uJmH/QDIH0fu7MG0AEx9OXEDXnqptXCwKOlOqZiS4iraH1Nr7/ObLMokW3sOCeBNyD68ATcV9b9Ag==
 
-"@master/css-compiler@2.0.0-beta.16":
-  version "2.0.0-beta.16"
-  resolved "https://registry.yarnpkg.com/@master/css-compiler/-/css-compiler-2.0.0-beta.16.tgz#b4776a653e8f47adfcf73f987e89ad16971a8222"
-  integrity sha512-wlC9B0ftCmIvdHY4zEe6t4Vh7LndkURsL4r61ubU9PzzF30y7f4Ql2KBdHOuXYhcmgyF/iftpbAVr4bbrM9Kzg==
+"@master/css-compiler@2.0.0-beta.18":
+  version "2.0.0-beta.18"
+  resolved "https://registry.yarnpkg.com/@master/css-compiler/-/css-compiler-2.0.0-beta.18.tgz#0dbb62ab822da4fe440ec9a566d9ff2eabd729eb"
+  integrity sha512-VPdob+LlhMe9Rg3EjjlNzMGMnwRHXen1UHgFFwlYVGDegoQlVrkA6oy+veMs0hWvmbXbUrEIbNNZ1NRA7I7sFA==
   dependencies:
     chalk "^4.0.0"
 
-"@master/css@2.0.0-beta.27":
-  version "2.0.0-beta.27"
-  resolved "https://registry.yarnpkg.com/@master/css/-/css-2.0.0-beta.27.tgz#9c5ac9af720e522b614dd98664116ec5943736c4"
-  integrity sha512-g29V9BmReYh1XdnKiLAyRslTKB/WvI0yBFuYQ6i7dtEbV6WG3D3WW5/YCOKCWvadbbKedWr31W7a8u3JXrIFKg==
+"@master/css@2.0.0-beta.40":
+  version "2.0.0-beta.40"
+  resolved "https://registry.yarnpkg.com/@master/css/-/css-2.0.0-beta.40.tgz#441c5787130bb48afd459145d9df7bf983f484c8"
+  integrity sha512-qXDFSidhiWYHgb3wj64kyrN3TTazU+4TJjnsp/vNE0E5397r7jPnvw5Iz6gRbioCDY2lmUmOoNveFxXVa+6Fjw==
 
 ansi-styles@^4.1.0:
   version "4.3.0"
